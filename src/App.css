@@ -1,20 +1,42 @@
+* {
+  font-family: 'Rubik', sans-serif;
+}
 .App {
-  width: 100vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 90vw;
+  background-color: lightsalmon;
+  font-size: calc(8px + 2vmin);
+
+/*   
+  width: 80vw;
   height: auto;
   background-color: aliceblue;
-  font-size: calc(8px + 2vmin);
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
 }
 
 /* HEADER / HEADER / HEADER / HEADER / HEADER / HEADER  */
 .HeroHeader{
   height: 80vh;
   width: 100%;
-  text-align: center;
   display: flex;
+  text-align: center;
+  justify-content: center;
 }
+.HeaderText{
+  margin: 0 3rem;
+}
+.center{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+spam{ color: #FF2834}
+
 
 .ImageHeader{
   background-color: tomato;
@@ -23,21 +45,22 @@
 }
 
 .InfoHeader{
-  background-color: palevioletred;
-  width: 50%;
+  background-color: whitesmoke;
+  width: 80%;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center; 
 }
 
 .techlogo{
-  background-color:blue;
+  background-color: lightslategray;
   width: 50%;
   height: 30%;
 }
 
 .galogo{
-  background-color: red;
+  background-color:lightsteelblue;
   width: 50%;
   height: 30%;
 }
@@ -58,10 +81,35 @@
 /* BANNER / BANNER / BANNER / BANNER / BANNER / BANNER  */
 
 .Banner {
-  background-color: papayawhip;
+  background-color: lightyellow;
   width: 100%;
-  height: 50vh;
+  height: 45vh;
+  align-items: center;
+  /* justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center; */
+
+
+
+  /* display: flex;
+  flex-flow: row wrap;
+  justify-content: center;  */
+
+  
 }
+
+.webdesignflex{
+object-fit: contain;
+background-image: url();
+}
+
+
+
+
+
+
 .ClassContainer{
   background-color: lightslategray;
   height: 100vh;
