@@ -1,13 +1,16 @@
 * {
   font-family: 'Rubik', sans-serif;
 }
-.App {
+
+.General{
   display: flex;
-  flex-flow: column wrap;
+  text-align: center;
   justify-content: center;
+}
+.App {
+  flex-flow: column wrap;
   width: 90vw;
-  /* background-color: lightsalmon; */
-  height: autos;
+  background-color: lightsalmon;
   font-size: calc(8px + 2vmin);
 
 /*   
@@ -106,9 +109,9 @@ background-image: url();
 /* CALENDAR / CALENDAR / CALENDAR / CALENDAR / CALENDAR / CALENDAR  */
 
 .Calendar {
-  background-color: peru;
+  /* background-color: peru; */
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   align-items: flex-start;
   /* justify-content: space-around; */
@@ -117,9 +120,10 @@ background-image: url();
 
 .Information{
   background-color: paleturquoise;
-  height: 100%;
+  height: auto;
   width: 15vw;
   margin-bottom: 20px;
+  justify-content: space-evenly;
 }
 
 .Date{
@@ -129,7 +133,7 @@ background-image: url();
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 10vh;
   width: 100%;
   margin-bottom: 1rem;
 }
@@ -146,7 +150,9 @@ background-image: url();
   margin-bottom: 1rem;
   font-size: calc(3px + 2vmin);
 }
-
+.Text p{
+  margin: 30px;
+}
 .ClassContainer{
   /* background-color: lightslategray; */
   width: 20vw;

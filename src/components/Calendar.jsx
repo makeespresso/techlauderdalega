@@ -18,7 +18,7 @@ const Header = () => {
         <h2>May 8 </h2>
       </div>
         <div className="Text"><p>Intro to google Analytics</p></div>
-        <div className="Text"><p>Data Visualization & Intro to Tableau</p></div>
+        <div className="Text"><p><a href="https://generalassemb.ly/education/data-visualization-and-intro-to-tableau/miami/111480" target="_blank">Data Visualization & Intro to Tableau</a></p></div>
         <div className="Text"><p>Intro to UX Design</p></div>
         <div className="Text"><p>Balancing Strategic Job Seeking With Life During COVID</p></div>
       </div>

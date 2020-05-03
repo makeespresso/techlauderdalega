@@ -6,11 +6,12 @@ import Calendar from './components/Calendar';
 
 function App() {
   return (
-
+    <div className="General">
     <div className="App">
      <Header />
      <Banner />
      <Calendar />
+     </div>
      </div>
   );
 }
