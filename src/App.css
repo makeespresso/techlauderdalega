@@ -7,6 +7,7 @@
   justify-content: center;
   width: 90vw;
   background-color: lightsalmon;
+  height: autos;
   font-size: calc(8px + 2vmin);
 
 /*   
@@ -92,13 +93,9 @@ spam{ color: #FF2834}
   align-self: center;
   align-content: center; */
 
-
-
   /* display: flex;
   flex-flow: row wrap;
   justify-content: center;  */
-
-  
 }
 
 .webdesignflex{
@@ -106,35 +103,38 @@ object-fit: contain;
 background-image: url();
 }
 
+/* CALENDAR / CALENDAR / CALENDAR / CALENDAR / CALENDAR / CALENDAR  */
 
-
-
-
-
-.ClassContainer{
-  background-color: lightslategray;
-  height: 100vh;
-  width: 70vw;
-}
-
-.InfoBoxes{
-  background-color: crimson;
-  height: 20vh;
+.Calendar {
+  background-color: peru;
   width: 100%;
+  height: auto;
   display: flex;
+  align-items: flex-start;
+}
+.Information{
+  background-color: paleturquoise;
+  height: 100%;
+  width: 20vw;
 }
 
 .Date{
-  background-color: darkolivegreen;
-  height: 100%;
-  width: 20%;
+  background-color: green;
+  height: 10vh;
+  width: 100%;
 }
 
-.Information{
-  background-color: lightyellow;
-  height: 100%;
-  width: 100%;
+.ClassContainer{
+  background-color: lightslategray;
+  width: 20vw;
+}
 
+
+
+.InfoBoxes{
+  background-color: crimson;
+  height: 30vh;
+  width: 20%;
 }
 
 /* .App-header {
