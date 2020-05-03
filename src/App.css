@@ -1,0 +1,50 @@
+.App {
+  background-color: aliceblue;
+  width: 100vw;
+  font-size: calc(10px + 2vmin)
+}
+
+.Teal{
+  background-color: #1C4C63;
+  height: 60vh;
+  width: 70vw;
+  color: white;
+}
+
+.ClassContainer{
+  background-color: lightslategray;
+  height: 100vh;
+  width: 70vw;
+}
+
+.InfoBoxes{
+  background-color: crimson;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+}
+
+.Date{
+  background-color: darkolivegreen;
+  height: 100%;
+  width: 20%;
+}
+
+.Information{
+  background-color: lightyellow;
+  height: 100%;
+  width: 100%;
+
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}  */
+
