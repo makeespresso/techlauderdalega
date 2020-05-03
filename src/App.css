@@ -6,7 +6,7 @@
   flex-flow: column wrap;
   justify-content: center;
   width: 90vw;
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
   height: autos;
   font-size: calc(8px + 2vmin);
 
@@ -108,31 +108,52 @@ background-image: url();
 .Calendar {
   background-color: peru;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   align-items: flex-start;
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
 }
+
 .Information{
   background-color: paleturquoise;
   height: 100%;
-  width: 20vw;
+  width: 15vw;
+  margin-bottom: 20px;
 }
 
 .Date{
-  background-color: green;
-  height: 10vh;
+  background-color: #069CBC;
+  box-shadow: 5px 8px #C3C3C3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
   width: 100%;
+  margin-bottom: 1rem;
+}
+
+.Text{
+  background-color: whitesmoke;
+  height: 20vh;
+  width: 100%;
+  border: solid .5px #C3C3C3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: calc(3px + 2vmin);
 }
 
 .ClassContainer{
-  background-color: lightslategray;
+  /* background-color: lightslategray; */
   width: 20vw;
 }
 
-
-
 .InfoBoxes{
-  background-color: crimson;
+  /* background-color: crimson; */
   height: 30vh;
   width: 20%;
 }
