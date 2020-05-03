@@ -1,16 +1,67 @@
 .App {
-  background-color: aliceblue;
   width: 100vw;
-  font-size: calc(10px + 2vmin)
+  height: auto;
+  background-color: aliceblue;
+  font-size: calc(8px + 2vmin);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.Teal{
-  background-color: #1C4C63;
-  height: 60vh;
-  width: 70vw;
-  color: white;
+/* HEADER / HEADER / HEADER / HEADER / HEADER / HEADER  */
+.HeroHeader{
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
 }
 
+.ImageHeader{
+  background-color: tomato;
+  width: 50%;
+  height: 100%;
+}
+
+.InfoHeader{
+  background-color: palevioletred;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.techlogo{
+  background-color:blue;
+  width: 50%;
+  height: 30%;
+}
+
+.galogo{
+  background-color: red;
+  width: 50%;
+  height: 30%;
+}
+
+.styleimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageCSS{
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  position: relative;
+}
+
+/* BANNER / BANNER / BANNER / BANNER / BANNER / BANNER  */
+
+.Banner {
+  background-color: papayawhip;
+  width: 100%;
+  height: 50vh;
+}
 .ClassContainer{
   background-color: lightslategray;
   height: 100vh;
