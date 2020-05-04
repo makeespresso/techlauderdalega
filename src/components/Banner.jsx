@@ -8,7 +8,6 @@ const Banner = () => {
     <p>Every friday in May, join workshops in coding, data marketing, UX design and career development - <b style={{color: "#F2486D"}}>for free!</b></p>
 </div>
 </div>
-
   )
 }
 

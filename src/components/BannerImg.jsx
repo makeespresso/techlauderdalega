@@ -4,7 +4,6 @@ const BannerImg = () => {
   return (
 <div className="Banner2 Imago">
 </div>
-
   )
 }
 

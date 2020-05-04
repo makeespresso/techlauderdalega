@@ -3,16 +3,6 @@ import React from 'react';
 const Header = () => {
   return (
  <div className="Calendar">
-   {/* <div className="Information">
-   <div className="Date">
-        <h2>May 1 </h2>
-      </div>
-        <div className="Text"><p>Intro to Data Analytics</p></div>
-        <div className="Text"><p>Customer Journey Mapping</p></div>
-        <div className="Text"><p>Project Management Workshop</p></div>
-        <div className="Text"><p>How to Create a Supporting Mindset WHile Job Seeking</p></div>
-      </div> */}
-
       <div className="Information">
       <div className="Date">
         <h4>May 8 </h4>
