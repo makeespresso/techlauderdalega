@@ -6,6 +6,11 @@ const HeroImageImg = props => (
     <img className="pcu" src={heroimage} {...props}></img>
 );
 
+const BannerHeroImg = props => (
+    <img className="women" src={bannerimage} {...props}></img>
+);
+
 export{
     HeroImageImg,
+    BannerHeroImg,
 };

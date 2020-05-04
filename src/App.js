@@ -15,11 +15,11 @@ function App() {
      <BannerImg />
      <Banner />
      <br></br>
+     <br></br>
      <BannerEvents/>
      <br></br>
      <br></br>
      <br></br>
-
      <br></br>
      <Calendar />
      </div>

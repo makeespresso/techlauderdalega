@@ -12,6 +12,7 @@
   width: 90vw;
   /* background-color: lightsalmon; */
   font-size: calc(8px + 2vmin);
+  color: #323232;
 
 /*   
   width: 80vw;
@@ -20,6 +21,24 @@
   align-items: center;
   justify-content: center;
   text-align: center; */
+}
+
+
+/* LINKS / LINKS / LINKS / LINKS / LINKS / LINKS / LINKS / LINKS /   */
+a { 
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+a:visited{
+color: #323232;
+}
+
+a:hover{
+  color: #FF2834;
 }
 
 /* HEADER / HEADER / HEADER / HEADER / HEADER / HEADER  */
@@ -110,13 +129,15 @@ spam{ color: #FF2834}
 
 .Banner {
   background-color: rgba(223, 238, 240, 0.7);
-  /* background-image: url(https://cdn.pixabay.com/photo/2012/05/07/18/44/banner-48962_1280.png); */
-  /* background-image: url(https://cdn.pixabay.com/photo/2017/05/09/13/33/laptop-2298286_1280.png); */
   width: 100%;
   height: 45vh;
   align-items: center;
   text-align: center;
   line-height: 2;
+  background-image: url(./assets/img/coverimage.png);
+  background-repeat: no-repeat;
+  background-position: left;
+background-size: cover;
 
   /* justify-content: center;
   text-align: center;
@@ -142,37 +163,31 @@ spam{ color: #FF2834}
   justify-content: center;
   text-align: center;
   height: 25vh;
-  background-color: thistle;
+  background-image: url(./assets/img/heroimage.png);
+  background-color: #069CBC;;
+  color:white;
   width: 100%;
-}
-
-.bannerimage{
-  background-color:lightblue;
-  height: 100%;
-  width: 10%;
-}
-
-.bannercontent{
-  background-color: tomato;
-  height: 100%;
-  width: 100%;
-}
-
-.Imago{
-background-color: #6BC4D2;
-background-image: url(https://cdn.pixabay.com/photo/2016/07/12/19/08/laptop-1512838_1280.png);
-background-repeat: no-repeat;
-background-position: center;
+  background-repeat: no-repeat;
+  background-position: left;
 background-size: contain;
 }
 
-.Imago2{
+
+.Imago{
+background-color: #6BC4D2;
+background-image: url(./assets/img/headers.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+/* .Imago2{
   background-color: #6BC4D2;
   background-image: url(https://cdn.pixabay.com/photo/2016/10/23/17/06/calendar-1763587_1280.png);
   background-repeat: no-repeat;
-background-size: 20rem;
+  background-size: 20rem;
   background-position: left;
-}
+} */
 
 .webdesignflex{
 object-fit: contain;
@@ -209,7 +224,6 @@ background-image: url();
   height: 10vh;
   width: 100%;
   margin-bottom: 1rem;
-
 }
 
 .Text{
@@ -224,6 +238,7 @@ background-image: url();
   margin-bottom: 1rem;
   font-size: calc(3px + 2vmin);
 }
+
 .Text p{
   margin: 30px;
 }

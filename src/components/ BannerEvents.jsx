@@ -21,7 +21,7 @@ const BannerEvents = () => {
   return (
 <div className="BannerFlex center">
     <div className="HeaderText">
-<p>Check out our calendar and Register!</p>
+<h3>Check out our calendar and Register!</h3>
 </div>
 </div>
 
