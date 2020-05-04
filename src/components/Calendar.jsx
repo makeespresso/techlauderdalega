@@ -53,7 +53,7 @@ const Header = () => {
       </div>
         <div className="Text"><p><a href="https://generalassemb.ly/education/customer-journey-mapping/miami/114338" taget="_blank">Customer Journey Mapping </a></p></div>
         <div className="Text"><p><a href="https://generalassemb.ly/education/project-management-workshop-560a3f31-61ef-480a-8ce7-5b8965b0b7bd/miami/114315" taget="_blank">Project Management Workshop</a></p></div>
-        <div className="Text"><p><a href="https://accounts.generalassemb.ly/identify" taget="_blank">Intro to Data Analytics Livestream</a></p></div>
+        <div className="Text"><p><a href="https://generalassemb.ly/education/intro-to-data-analytics-livestream/miami/106536" taget="_blank">Intro to Data Analytics Livestream</a></p></div>
         <div className="Text"><p><a href="https://generalassemb.ly/education/digital-interviews-presenting-your-best-self-online-and-over-the-phone/online/112071" taget="_blank">Digital Interviews: Presenting Your Best Self Online</a></p></div>
         <div className="Text"><p><a href="https://generalassemb.ly/education/facebook-advertising-bootcamp/miami/115937" target="_blank">Facebook Advertising Bootcamp</a></p></div>
       </div>
