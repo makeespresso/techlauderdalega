@@ -11,7 +11,7 @@
   flex-flow: column wrap;
   width: 90vw;
   font-size: calc(8px + 2vmin);
-  color: #323232;
+  color: #333333;
 }
 
 
@@ -22,7 +22,7 @@ a {
 }
 
 a:visited{
-color: #323232;
+color: #333333;
 }
 
 a:hover{
@@ -81,13 +81,28 @@ spam{ color: #F2486D}
 }
 
 .techlogo{
-  width: 50%;
+  width: 40%;
   height: 30%;
+  border-bottom: .5px solid #333333;
 }
-
-.galogo{
-  width: 50%;
+.Equis{
   height: 30%;
+  width: 10%;
+  border-bottom: .5px solid #333333;
+}
+.Equis p{
+  font-family: 'Permanent Marker', cursive;
+  color: #58E3E3;
+  font-size: 4rem;
+  /* text-shadow: royalblue 1px; */
+  /* text-shadow: 2px 2px 2px #CE5937;  */
+  text-shadow: 2px 2px 2px #1B2A48;
+}
+.galogo{
+  width:40%;
+  height: 30%;
+  border-bottom: .5px solid #333333;
+
 }
 
 .styleimage{

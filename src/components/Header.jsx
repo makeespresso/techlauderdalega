@@ -20,9 +20,10 @@ export default function Header(props){
       </a>
     </svg>
       </div>
-
+<div className="Equis center">
+  <p>X</p>
+</div>
       <div className="galogo styleimage">
-
     <svg width={259.92} height={84.93} viewBox="0 0 259.92 84.93" {...props}>
     <a href="https://generalassemb.ly/locations/miami" target="_blank">
       <g data-name="Group 8">
