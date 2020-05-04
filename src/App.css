@@ -130,7 +130,6 @@ spam{ color: #FF2834}
 }
 
 .Banner2{ 
-  background-color: red;
   width: 100%;
   height: 35vh;
   align-items: center;
@@ -138,6 +137,26 @@ spam{ color: #FF2834}
   line-height: 2;
 }
 
+.BannerFlex{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 25vh;
+  background-color: thistle;
+  width: 100%;
+}
+
+.bannerimage{
+  background-color:lightblue;
+  height: 100%;
+  width: 10%;
+}
+
+.bannercontent{
+  background-color: tomato;
+  height: 100%;
+  width: 100%;
+}
 
 .Imago{
 background-color: #6BC4D2;
@@ -145,6 +164,14 @@ background-image: url(https://cdn.pixabay.com/photo/2016/07/12/19/08/laptop-1512
 background-repeat: no-repeat;
 background-position: center;
 background-size: contain;
+}
+
+.Imago2{
+  background-color: #6BC4D2;
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/23/17/06/calendar-1763587_1280.png);
+  background-repeat: no-repeat;
+background-size: 20rem;
+  background-position: left;
 }
 
 .webdesignflex{
@@ -182,13 +209,14 @@ background-image: url();
   height: 10vh;
   width: 100%;
   margin-bottom: 1rem;
+
 }
 
 .Text{
-  box-shadow:1px 1px 1px 1px #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
   height: 20vh;
   width: 100%;
-  border: solid .5px #C3C3C3;
+  /* border: solid .5px #C3C3C3; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,6 +237,7 @@ background-image: url();
   height: 30vh;
   width: 20%;
 }
+
 
 /* .App-header {
   background-color: #282c34;
