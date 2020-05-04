@@ -1,11 +1,17 @@
 import React from 'react';
 
-const Header = () => {
+import HeroImageImg from '../assets/img/heroimage.png';
+
+export default function Header(props){
+  let { Header } = props
   return (
     <div className="HeroHeader">
-    {/* <div className="ImageHeader center">
-    </div> */}
+{/* <div className="back">
+<img className="backimage" src={HeroImageImg} ></img>
+</div> */}
+
     <div className="InfoHeader center">
+   
       <div className="techlogo styleimage">
         <svg width={266} height={142} viewBox="0 0 266 142">
       <image
@@ -37,11 +43,9 @@ const Header = () => {
       </div>
       <div className="HeaderText" >
       <h3>We believe that learning has no limits.</h3>
-        <p>Whether you're looking for a new job or wanting to diversify your skill set to become more employable, our community is here for you, <spam><b>online</b>.</spam></p>
+        <p>Whether you're looking for a new job or wanting to diversify your skill set to become more employable, our community is here for you, <b style={{color: "#FFDB00"}}>online</b>.</p>
       </div>
       </div>
      </div>
   )
 }
-
-export default Header;

@@ -10,7 +10,7 @@
 .App {
   flex-flow: column wrap;
   width: 90vw;
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
   font-size: calc(8px + 2vmin);
 
 /*   
@@ -24,12 +24,36 @@
 
 /* HEADER / HEADER / HEADER / HEADER / HEADER / HEADER  */
 .HeroHeader{
-  height: 80vh;
+  height: 65vh;
   width: 100%;
   display: flex;
   text-align: center;
   justify-content: center;
+  line-height: 2;
 }
+
+.backimage{
+object-fit: contain;
+height: 100%;
+  
+}
+
+.back{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+z-index: -5;
+height: 100%;
+width: 100%;
+object-fit: contain;
+
+}
+
+/* .object{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+} */
 .HeaderText{
   margin: 0 3rem;
 }
@@ -43,13 +67,13 @@ spam{ color: #FF2834}
 
 
 .ImageHeader{
-  background-color: tomato;
+  /* background-color: tomato; */
   width: 50%;
   height: 100%;
 }
 
 .InfoHeader{
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   width: 80%;
   height: 100%;
   display: flex;
@@ -58,13 +82,13 @@ spam{ color: #FF2834}
 }
 
 .techlogo{
-  background-color: lightslategray;
+  /* background-color: lightslategray; */
   width: 50%;
   height: 30%;
 }
 
 .galogo{
-  background-color:lightsteelblue;
+  /* background-color:lightsteelblue; */
   width: 50%;
   height: 30%;
 }
@@ -85,11 +109,15 @@ spam{ color: #FF2834}
 /* BANNER / BANNER / BANNER / BANNER / BANNER / BANNER  */
 
 .Banner {
-  background-color: lightyellow;
+  background-color: rgba(223, 238, 240, 0.7);
+  /* background-image: url(https://cdn.pixabay.com/photo/2012/05/07/18/44/banner-48962_1280.png); */
+  /* background-image: url(https://cdn.pixabay.com/photo/2017/05/09/13/33/laptop-2298286_1280.png); */
   width: 100%;
   height: 45vh;
   align-items: center;
   text-align: center;
+  line-height: 2;
+
   /* justify-content: center;
   text-align: center;
   align-items: center;
@@ -99,6 +127,24 @@ spam{ color: #FF2834}
   /* display: flex;
   flex-flow: row wrap;
   justify-content: center;  */
+}
+
+.Banner2{ 
+  background-color: red;
+  width: 100%;
+  height: 35vh;
+  align-items: center;
+  text-align: center;
+  line-height: 2;
+}
+
+
+.Imago{
+background-color: #6BC4D2;
+background-image: url(https://cdn.pixabay.com/photo/2016/07/12/19/08/laptop-1512838_1280.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
 }
 
 .webdesignflex{
@@ -119,7 +165,7 @@ background-image: url();
 }
 
 .Information{
-  background-color: paleturquoise;
+  /* background-color: paleturquoise; */
   height: auto;
   width: 15vw;
   margin-bottom: 20px;
@@ -128,7 +174,7 @@ background-image: url();
 
 .Date{
   background-color: #069CBC;
-  box-shadow: 5px 8px #C3C3C3;
+  /* box-shadow: 5px 8px #C3C3C3; */
   color: white;
   display: flex;
   justify-content: center;
@@ -139,7 +185,7 @@ background-image: url();
 }
 
 .Text{
-  background-color: whitesmoke;
+  box-shadow:1px 1px 1px 1px #ccc;
   height: 20vh;
   width: 100%;
   border: solid .5px #C3C3C3;

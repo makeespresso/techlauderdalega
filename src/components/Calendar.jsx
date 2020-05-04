@@ -15,9 +15,9 @@ const Header = () => {
 
       <div className="Information">
       <div className="Date">
-        <h2>May 8 </h2>
+        <h4>May 8 </h4>
       </div>
-        <div className="Text"><p>Intro to google Analytics</p></div>
+        <div className="Text colored"><p>Intro to google Analytics</p></div>
         <div className="Text"><p><a href="https://generalassemb.ly/education/data-visualization-and-intro-to-tableau/miami/111480" target="_blank">Data Visualization & Intro to Tableau</a></p></div>
         <div className="Text"><p>Intro to UX Design</p></div>
         <div className="Text"><p>Balancing Strategic Job Seeking With Life During COVID</p></div>
@@ -25,7 +25,7 @@ const Header = () => {
 
       <div className="Information">
       <div className="Date">
-        <h2>May 15 </h2>
+        <h4>May 15 </h4>
       </div>
         <div className="Text"><p>SEO Training for Begginers</p></div>
         <div className="Text"><p>User Research Methods</p></div>
@@ -34,7 +34,7 @@ const Header = () => {
 
       <div className="Information">
       <div className="Date">
-        <h2>May 22 </h2>
+        <h4>May 22 </h4>
       </div>
         <div className="Text"><p>Excel for Begginers</p></div>
         <div className="Text"><p>Intro to Coding: HTML & CSS</p></div>
@@ -44,7 +44,7 @@ const Header = () => {
 
 <div className="Information">
 <div className="Date">
-        <h2>May 29 </h2>
+        <h4>May 29 </h4>
       </div>
         <div className="Text"><p>Project Management Workshop</p></div>
         <div className="Text"><p>Customer Journey Mapping</p></div>
