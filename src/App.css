@@ -137,7 +137,7 @@ spam{ color: #FF2834}
   background-image: url(./assets/img/coverimage.png);
   background-repeat: no-repeat;
   background-position: left;
-background-size: cover;
+  background-size: cover;
 
   /* justify-content: center;
   text-align: center;
@@ -164,7 +164,8 @@ background-size: cover;
   text-align: center;
   height: 25vh;
   background-image: url(./assets/img/heroimage.png);
-  background-color: #069CBC;;
+  /* background-color: #069CBC; */
+  background-color: #1B2A48;
   color:white;
   width: 100%;
   background-repeat: no-repeat;
@@ -265,3 +266,13 @@ background-image: url();
   color: white;
 }  */
 
+.Bannerfooter {
+background-color: #1B2A48;
+color: white;
+height: 10vh;
+width: 100%;
+}
+
+.Bannerfooter p{
+  font-size: .12px;
+}
