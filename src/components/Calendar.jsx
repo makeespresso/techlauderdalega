@@ -9,7 +9,7 @@ const Header = () => {
       </div>
         <div className="Text"><p><a href="https://generalassemb.ly/education/data-visualization-and-intro-to-tableau/miami/111480" target="_blank">Data Visualization & Intro to Tableau</a></p></div>
         <div className="Text colored"><p><a href="https://generalassemb.ly/education/introduction-to-google-analytics/miami/111433" target="_blank">Intro to Google Analytics</a></p></div>
-        <div className="Text"><p><a href="https://generalassemb.ly/education/striking-a-balance-strategic-job-searching-life-during-covid/online/112069" target="_blank">Balancing Strategic Job Seeking With Life During COVID</a></p></div>
+        <div className="Text"><p><a href="https://generalassemb.ly/education/striking-a-balance-strategic-job-searching-life-during-covid/online/112069" target="_blank">Job Search Strategy During COVID</a></p></div>
         <div className="Text"><p><a href="https://generalassemb.ly/education/intro-to-ux-design-livestream/miami/106271" target="_blank">Intro to UX Design</a></p></div>
         <div className="Text"><p><a href="https://generalassemb.ly/education/paid-social-for-the-win-facebook-instagram-advertising/miami/115934" target="_blank">Paid Social for The Win: Facebook + Instagram Advertising</a></p></div>
       </div>
